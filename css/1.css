@@ -1,0 +1,318 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+
+html, body {
+  height: 100%;
+
+}
+
+body{
+  max-width: 100%;
+  height: 100%;
+text-align: center;
+
+  font-size: lem;
+  font-family: "Segoe UI", sans-serif;
+
+
+}
+
+#center{
+  max-width: 40%;
+  height: 100%;
+margin-left: 30%;
+  margin-right: 30%;
+    background-color: rgb(34, 36, 33);
+}
+
+#mobile{
+  /* border: 3px solid red; */
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
+}
+
+#find{
+  width: 90%;
+  border: 1px solid rgb(255, 251, 142);;
+    margin-right: 5%;
+    margin-left: 5%;
+      height: 5%;
+      margin-top: 5%;
+      box-sizing: border-box;
+}
+
+input{
+
+  width: 88%;
+  background-color:rgb(237, 232, 228);
+  height: 101%;
+  font-size: 95%;
+   padding-left: 2%;
+  float: right;
+  color: rgb(132, 142, 133);
+ /* border: 1px solid rgb(255, 251, 142); */
+ border: none;
+
+}
+
+#findp {
+  float: left;
+  width: 9.7%;
+  height: 101%;
+
+}
+
+#about,#opisan,#mtr,#bottom{
+  width: 88%;
+  height: 35%;
+    margin-left: 5%;
+
+}
+
+#about {
+
+
+
+  margin-right: 5%;
+  margin-top: 2%;
+
+}
+
+
+
+
+#pictures{
+  height: 95%;
+  width: 100%;
+  background-color:  rgb(103, 98, 105);
+  margin-top: 8%;
+   position: relative;
+   color: #fff;
+   box-shadow: 0 0 7px #000; /* Добавляем тень для блока */
+   border-radius: 5%;
+
+}
+
+#pictures::after{
+  content: '';
+  position: absolute; /* Абсолютное позиционирование */
+  left: 10%; top: -25px; /* Положение треугольника */
+  border: 10px solid transparent; /* Прозрачные границы */
+  border-bottom: 15px solid rgb(54, 57, 55); /* Добавляем треугольник */
+}
+
+#findp2{
+  width: 100%;
+  height: 100%;
+   border-radius: 5%;
+
+
+}
+#text,#p{
+    font-weight: 700;
+}
+
+#text{
+
+  margin-top: -40%;
+  margin-left: -20%;
+
+}
+
+#p{
+  margin-top: 0%;
+  margin-left: 8%;
+  margin-right: 2%;
+   text-align: left;
+   text-indent: 5%;
+   color:rgb(110, 235, 77);
+}
+
+#opisan{
+background-color: rgb(224, 231, 220);
+margin-top: -4%;
+border-radius: 5% 5% 3% 3%;
+
+position: relative;
+color: #fff;
+box-shadow: 0 0 7px #000; /* Добавляем тень для блока */
+}
+
+
+
+
+#registration{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(201, 201, 189);
+  border-radius: 5% 0% 0% 3%
+}
+
+#complete{
+  font-size: 0.9em;
+  weight: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+
+}
+
+#form{
+  width: 85%;
+  height:67%;
+  border: 3px solid rgb(32, 29, 31);
+  border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#probel{
+
+  height: 10%;
+}
+
+#vxod a {
+padding-bottom: 3%;
+padding-left: 5%;
+background-color: rgb(255, 231, 25);
+  width: 40%;
+  margin-left: 30%;
+    margin-right: 30%;
+   margin-top: 105%;
+  display: flex;
+   align-items: flex-end;
+   color: rgb(47, 44, 48);
+   text-decoration: none;
+}
+
+#vxod a:hover{
+  background-color: rgb(227, 65, 31);
+  color: rgb(200, 219, 13);
+}
+
+#right{
+  float: right;
+  width: 50%;
+  height: 100%;
+  margin-top: -80%;
+  color: rgb(47, 44, 48);
+
+}
+/* #top{
+
+} */
+li{
+  padding-top: 5%;
+  float: left;
+  margin-left: 20%;
+  color: rgb(215, 166, 46);;
+
+}
+
+ul li:first-line  {
+    color: black;
+  }
+
+  #rbottom{
+    margin-top: 85%;
+  }
+
+
+.subjectf{
+  height: 20%;
+  weight: 70%;
+  margin-top: 7%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+
+#mtr, #mtrb{
+weight: 2%;
+  content: '';
+ }
+
+ .arrow,.arrowb{
+    border: 8px solid transparent; /* Прозрачные границы */
+
+    float: left;
+
+    margin-left:2%;
+    margin-right:-2%;
+}
+.arrow{
+  border-top: 10px solid rgb(158, 146, 152); /* Добавляем треугольник */
+      margin-top: 0%;
+}
+
+.arrowb{
+  border-bottom: 10px solid rgb(158, 146, 152); /* Добавляем треугольник */
+  margin-top: -5%;
+}
+
+
+
+
+#bottom{
+  height: 15%;
+   margin-top: -62%;
+  background-color:rgb(215, 166, 46);
+  border-radius: 3% 3% 5% 5%;
+  position: relative;
+  color: #fff;
+  box-shadow: 0 0 7px #000; /* Добавляем тень для блока */
+}
+
+#fkyrs{
+  float: left;
+  width: 46%;
+  height: 100%;
+  text-align: justify;
+  padding-left: 2%;
+  text-indent: 4%;
+  padding-right: 2%;
+  border-right: 2px solid rgb(84, 84, 78);
+
+}
+
+#bkyrs{
+  float: right;
+  border-right: none;
+
+  width: 45%;
+
+  text-align: justify;
+ padding-right: 2%;
+   padding-left: 2%;
+  text-indent: 4%;
+
+}
+
+.kyrs {
+  margin-top: 5%;
+
+  background-color: rgb(235, 124, 20);
+  height: 40%;
+   margin-left: 2%;
+   margin-right: 2%;
+   text-align: center;
+   border-radius: 40%;
+}
+
+.kyrs a{
+  text-decoration: none;
+}
+
+.kyrs:hover{
+  background-color: rgb(184, 184, 184)
+}
+
+.kyrs a:hover{
+  color: rgb(235, 124, 20);
+}
